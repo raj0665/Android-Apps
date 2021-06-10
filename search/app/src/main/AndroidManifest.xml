@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.here.android.example.search">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ResultListActivity" />
+
+        <!--Developers should put application credentials here.To obtain them, please register the application
+         at https://developer.here.com/develop/mobile-sdks-->
+        <meta-data
+            android:name="com.here.android.maps.appid"
+            android:value="zPRSCYCrCtxdOyB4xQ4i" />
+        <meta-data
+            android:name="com.here.android.maps.apptoken"
+            android:value="JSe0DMUb22hgF_UEt4Z_Ew" />
+        <meta-data
+            android:name="com.here.android.maps.license.key"
+            android:value="K42uevcAekfbX5E/3kyFYlpMAjDwY6GjJBktaW8NppvqqiGqvr5zoriFnRNKVBlTpdIHb1rosz3GM5+yOJqt3zeh9gATcRxAEIYfWlUCtYkfcmbbLxpZiJQ2t0G6p4MBvVFjBmPeTuluh6pwruBmIBRKhdniLdknWOPyZ1UIGJ/ZJOgzxgEnB+Ax//qOFzkHUdMrULYwri4/Wq9L0qboSoFHA3H1qyiBVbNcdMJKB+kuJP397NhtTja1mbHMb3qvvbTuLBRksL6lurl5hX8fXv3r2VF8zqK9VSNAkNxBmKlslZMqPy9GCTOIYdgMRlZWPhwwsqkzmRZcjrNvkN+zMUFjfSbkUYJ6q8R5uRfGQt8+TGvYqaKPdHndKb44Jx+u/CLvZY7Z7MXc7mIQhFHy4zS1gCgZTlu6bEs1Iq+OwsXUrCTxs30QCxI58bCW8p71RQmerIMFN/rcfsarW5TClWjM4GLXF8azHO6tRo/pz8vNozHOslOhkMIR736TT5pwjGjdmB2iGCuxA/vr6wx2HUyERwf4XZrXmiWmKe/pbNrkf94gT8Bg4ipKz22NnSKiDmg7tujLU45suxljU9I5AaPMwC7kXJk7l+h2RcXdqsOf1L634JU9wE2aHizlhUrUGGey/APGmB/C5HZpvP8RzAaA6eahl6Ejp2AgPTiahCc=" />
+    </application>
+</manifest>

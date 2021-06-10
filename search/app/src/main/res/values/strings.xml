@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Geocode App</string>
+    <string name="engine_init_error">Map engine initialization</string>
+    <string name="empty">" "</string>
+    <string name="api_key">AIzaSyC0hy-SaSrJJNUiQPmgTMVftZ4g79KPi1M</string>
+</resources>
